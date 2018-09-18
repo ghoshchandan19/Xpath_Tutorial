@@ -1,0 +1,17 @@
+<a title="Selenium Projects" href="/projects/">Projects</a>
+Xpath
+//a[@href='/projects/']
+//a[@title='Selenium Projects']
+//a[contains(text(),'Projects']
+
+------------------------------------------------------------------------------------------
+
+<li id="menu_documentation">
+<a title="Technical references and guides" href="/docs/">Documentation</a>
+
+xpath
+
+//li[@id='menu_documentation']/a
+//a[@href='/docs/']
+//a[@title='Technical references and guides']
+//a[@contains(text(),'Documentation']

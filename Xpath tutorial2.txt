@@ -1,0 +1,55 @@
+<div id="mBody">
+<div id="sidebar">
+<script type="text/javascript" src="/analytics.js">
+<div id="mainContent">
+<h2>What is Selenium?</h2>
+
+xpath:-
+
+1.//h2[contains(text(),'What is Selenium']
+2.//div[@id='mainContent']/h2
+3.//div[@id='mbody']/div[2]/h2
+
+CSS:-#mainContent>:nth-child(1)
+------------------------------------------------------------------------------------------------
+<input type="text" size="30" accesskey="s" name="q" id="q">
+
+1.//input[@id='q']
+2.//input[@name='q']
+
+CSS:-
+
+1.#q
+2.input[name='q']
+
+--------------------------------------------------------------------------------------------------
+<input type="submit" value="Go" id="submit">
+
+1.//input[@id='submit']
+2.//input[@id='submit' and @type='submit']
+
+CSS
+1.input[id='submit'][type='submit']
+
+
+---------------------------------------------------------------------------------------------------
+<table id="choice">
+  <tbody>
+   <tr>
+     <td style="border-right: 1px solid #CCCCCC">
+       <center>
+        <h3>Selenium WebDriver</h3>
+          <a href="/projects/webdriver/">
+          <a href="/projects/webdriver/">
+          </center>
+
+Xpath
+1.//table[@id=choice']/tbody/tr/td/center/h3
+2.//h3[contains(text(),'Selenium WebDriver')]
+
+CSS:-
+table[id=choice']>tbody>tr>td>center>h3
+
+//*[@id="cat_131"]/span
+
+
