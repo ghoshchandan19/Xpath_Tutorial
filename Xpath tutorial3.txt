@@ -1,0 +1,38 @@
+Example site:-https://www.facebook.com/
+
+<input type="email" data-testid="royal_email" tabindex="1" id="email" name="email" class="inputtext">
+
+Xpath
+1.//input[@id='email']
+2.//input[@class='inputtext' and @id='email']
+
+CSS:-
+input[id='email']
+
+-------------------------------------------------------------------------------------------------
+
+<input type="submit" id="u_0_2" data-testid="royal_login_button" tabindex="4" aria-label="Log In" value="Log In">
+
+Xpath
+1.//input[@id='u_0_2']
+2.//input[@value='Log In' @type='submit']
+3.//input[starts with(@id,'u')]
+
+CSS:-
+1.input[id='u_0_2']
+2.input[id^='u']
+
+-------------------------------------------------------------------------------------------------
+
+<input type="text" id="u_0_j" aria-label="First name" placeholder="" aria-required="true" name="firstname" data-type="text" class="inputtext _58mg _5dba _2ph-" aria-describedby="js_18">
+
+Xpath
+1.//input[@name='firstname']
+2.//input[starts-with(@id,'u')]
+3.//input[starts-with(@class,'inputtext')]
+4.//input[ends-with(@class,'inputtext')]
+
+CSS:-
+1.input[class$='inputtext']
+
+
