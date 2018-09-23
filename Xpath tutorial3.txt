@@ -35,4 +35,11 @@ Xpath
 CSS:-
 1.input[class$='inputtext']
 
+--------------------------------------------------------------------------------------------------
+Parent sibling 
+
+Xpath:-
+
+//a[text()='test1 test2']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox']
+
 
